@@ -1,0 +1,41 @@
+{
+  "name": "desktopxvideos",
+  "version": "0.0.1",
+  "description": "Aplicação desktop xvideos",
+  "main": "public/electron.js",
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "0.19.2",
+    "cheerio": "1.0.0-rc.3",
+    "electron-is-dev": "^1.2.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1",
+    "react-videoplayer": "0.6.4",
+    "concurrently": "^5.2.0",
+    "electron": "^8.2.3",
+    "wait-on": "^4.0.2"
+  },
+  "scripts": {
+    "dev": "concurrently \"BROWSER=none yarn start\" \"wait-on http://localhost:3000 && electron .\"",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marcio Alex",
+  "license": "ISC",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
