@@ -15,14 +15,14 @@
     "react-scripts": "3.4.1",
     "react-videoplayer": "0.6.4",
     "concurrently": "^5.2.0",
-    "electron": "^8.2.4",
+    "electron": "^9.4.0",
     "wait-on": "^4.0.2"
   },
   "devDependencies": {
     "@rescripts/cli": "^0.0.11",
     "@rescripts/rescript-env": "^0.0.10",
     "concurrently": "^4.1.2",
-    "electron": "^8.2.4",
+    "electron": "^9.4.0",
     "electron-builder": "^22.2.0",
     "typescript": "^3.5.3",
     "wait-on": "^3.3.0"
